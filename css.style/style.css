@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 100vh;
+    background-image: url("../imagens/capa.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h2{
+    font-size: 28px;
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+nav a:hover{
+    color: #ffb347;
+}
+
+
+.principal{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+}
+.principal h1{
+    font-size: 90px;
+    color: white;
+}
+.principal p{
+    font-size: 24px;
+    margin-bottom: 30px;
+    color:  #dcdcdc;
+}
+.principal a{
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.principal a:hover{
+    background-color: #ffb347;
+    color: black;
+    border-color: #ffb347;
+}
+
+
+.sobre{
+    background-color: #0a0a0a;
+    padding: 120px 80px;
+}
+.linha{
+    width: 100px; 
+    height: 4px;
+    background-color: #ffb347;
+    margin-bottom: 25px;
+}
+.sobre h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: left;
+}
+.sobre p{
+    font-size: 22px;
+    color: #dcdcdc;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+.caixa{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.formacao{
+    background: radial-gradient(circle at top, #0b0f2a, #000);
+    color: white;
+    padding: 80px 20px;
+}
+.formacao-box{
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+.formacao-box h2{
+    font-size: 48px;
+    margin-bottom: 40px;
+    border-left: 5px solid #ffffff;
+    padding-left: 15px;
+}
+.formacao-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.formacao-img img{
+    width: 100%;
+    max-width: 700px;
+    border-radius: 12px;
+    transition: transform 0.4s ease;
+}
+.formacao-img img:hover{
+    transform: scale(1.05);
+}
+.formacao-texto{
+   max-width: 900px;
+   margin: 0 auto;
+   font-size: 20px;
+   line-height: 1.8;
+}
+.formacao-texto p{
+    margin-bottom: 20px;
+}
+
+
+.curiosidades{
+    background-color: #000;
+    color: white;
+    padding: 80px 20px;
+}
+.curiosidades-box{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.curiosidades-box h2{
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #111;
+    width: 300px;
+    padding: 30px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card h3{
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.card p{
+    color: #dcdcdc;
+    line-height: 1.6;
+}
+
+
+.video{
+    background: radial-gradient(circle at top, #0b0f2a, #000);
+    color: white;
+    padding: 80px 20px;
+}
+
+.video-box{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.video-box h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.video-box p{
+    font-size: 20px;
+    color: #dcdcdc;
+    margin-bottom: 40px;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe{
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    border: none;
+    border-radius: 12px;
+}
+
+
+.footer{
+    background-color: #050505;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 1px solid #222;
+}
+
+.footer h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.footer p{
+    font-size: 16px;
+    color: #bdbdbd;
+    margin-bottom: 10px;
+}
